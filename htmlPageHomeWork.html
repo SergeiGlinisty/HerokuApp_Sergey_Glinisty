@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+   h1 {
+color:orange;
+background-color:grey;
+text-transform: uppercase;
+text-align:center
+}
+   p {
+color:white;
+background-color:black;
+text-align:left;
+  text-indent: 30px;
+  font-size: 160%;
+
+}
+
+
+table {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+</head>
+<body>
+<h1 class="heading__text">World of Animals </h1>
+
+<h2 class="heading__registr" style = "text-align:center"> <strong>REGISTRATION</strong> </h2>
+
+<form style = "text-align:center">
+    <label for="login" class="username">Login:</label><br>
+    <input type="text" id="login"  value=""><br>
+    <label for="password" class="">Password:</label><br>
+    <input type="text" id="password" name="key" value=""><br><br>
+    <input type="submit" value="Register">
+    </form>
+
+<a href="https://natworld.info/" target="_blank" style = "font-size: 160%">Visit natworld.info</a>
+
+<h3 class="heading_choose"> Choose your favorite animals </h3>
+
+<form >
+    <input type="checkbox" id="animal_lion" name="name1" value="Lion">
+    <label for="animal_lion"> Lion</label><br>
+    <input type="checkbox" id="animal_elephant" name="name2" value="Elephant">
+    <label for="animal_elephant"> Elephant</label><br>
+    <input type="checkbox" id="animal_monkey" name="name3" value="Monkey">
+    <label for="animal_monkey"> Monkey</label><br><br>
+    <button type="button">Like</button>
+</form>
+
+<form style = "text-align:right" class="dropdown__control dropdown-floatlabel">
+    <label for="animalselect" class="select">Choose animals:</label>
+    <select name="animal" id="animalselect">
+        <option value disabled="disabled" selected="selected">Choose an unloved animal</option>
+        <option value="lion">Lion</option>
+        <option value="elephant">Elephant</option>
+        <option value="monkey">Monkey</option>
+        <option value="dog">Dog</option>
+    </select>
+      <input type="submit" value="Button">
+</form>
+
+<p></p>
+<img src="animals-world-banner.jpg" class="picture" id="banner" alt="World animals" align="left" width="500" height="200">
+<p class="paragraph_1"> This site becomes a must for those who are interested in wildlife. Each page in the animal's worlds is specially designed to help you to find more information easily and quickly about the exciting creatures. The scientific classification, basic physical character, ecological value, and fun facts are covered for all the species. </p>
+<p></p>
+<p class="paragraph_2">The beauty, courage, and tenderness of animals teach us something new in our day to day life. Ecologists learn about the human being in the fragile web of life by studying the animals that share our world. By studying the animal habitat, anatomy and relatives psychologists and anthropologists learn about human development. Animals worlds provide you with adventure camps, career resources, photo galleries, articles, etc., to know more about wildlife. Animal's description, their regions, and endangered species of the world can also be seen. The video gallery helps you to explore the world of animals in a more fun and educational way. The latest zoological development can be viewed in regular updates. A variety of books, videos, posters, and other educational materials suggested by the experts are given for the educational store.</p>
+
+<p class="paragraph_3">The select element is used to create a drop-down list.</p>
+
+<table class="table" >
+    <colgroup>
+        <col span="1" style="background-color:grey">
+        <col style="background-color:red">
+        <col style="background-color:blue">
+        <col style="background-color:orange">
+
+    </colgroup>
+    <tr>
+        <th>Animals</th>
+        <th>Lion</th>
+        <th>Elephant</th>
+        <th>Monkey</th>
+    </tr>
+    <tr>
+        <td>number of legs</td>
+        <td>4</td>
+        <td>4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Weight</td>
+        <td>100</td>
+        <td>300</td>
+        <td>53</td>
+    </tr>
+</table>
+</body>
+</html>
